@@ -1,15 +1,78 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Sriracha&display=swap');
 
+
+body {
+    background: image_url('concrete-texture.png');
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
     font-family: "Sriracha", cursive;
     font-weight: 200;
     box-shadow: 0px 1px 3px #2a2a2a;
+    background: #3b5998;
 }
 
-.navbar-light a.navbar-brand {
+.navbar-dark a.navbar-brand {
     font-family: "Sriracha", cursive;
     font-weight: 100;
     font-size: 250%;
-    color: tomato;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 125%;
+    color: white;
+}
+
+.hero {
+    background: image_url('magic.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 370px;
+    box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.frosty {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
+    margin: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.feature {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.booyah-box h2,
+.booyah-box h1 {
+    margin: 10px;
+}
+
+.booyah-box {
+    -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    box-shadow: 1px 1px 2px 0 #d0d0d0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 10px;
 }
