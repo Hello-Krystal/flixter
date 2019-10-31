@@ -19,11 +19,16 @@ body {
     min-height: 100px;
     background-color: rgba(36, 32, 33, 0.9);
     color: white;
-    font-family: "Sriracha", cursive;
+    font-family: "Open Sans", sans-serif;
     padding: 10px 0px;
     margin-top: 30px;
 }
 
 #footer a {
     color: white;
+}
+
+#footer b {
+    font-family: "Sriracha", cursive;
+    font-size: 25px;
 }
