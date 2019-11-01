@@ -71,6 +71,10 @@ end
 
 gem 'simple_form'
 gem 'devise'
+gem "figaro"
+gem 'carrierwave', '~> 1.0'
+gem 'fog-aws', group: :production
+gem "aws-sdk-s3", require: false
 
 
 
