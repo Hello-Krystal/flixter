@@ -78,3 +78,4 @@ gem "aws-sdk-s3", require: false
 gem "mini_magick"
 gem "carrierwave-aws"
 gem 'stripe'
+gem 'ranked-model'
