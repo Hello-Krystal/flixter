@@ -22,6 +22,7 @@ body {
     font-family: "Open Sans", sans-serif;
     padding: 10px 0px;
     margin-top: 30px;
+    font-weight: 100;
 }
 
 #footer a {
@@ -31,4 +32,13 @@ body {
 #footer b {
     font-family: "Sriracha", cursive;
     font-size: 25px;
+}
+
+.social-button {
+    margin: 2px;
+    size: 3px;
+}
+
+.social a:hover {
+    text-decoration: none;
 }
