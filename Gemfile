@@ -82,3 +82,4 @@ gem 'ranked-model'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 5.11.2'
