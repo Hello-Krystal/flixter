@@ -5,25 +5,35 @@
 @import "font-awesome";
 
 body {
-    background: image_url('concrete-texture.png');
+    background-color: #333;
     font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+hr {
+    color: #000;
+}
+
+
+.modal {
+    color: blue;
 }
 
 .navbar {
     font-family: "Sriracha", cursive;
     font-weight: 200;
-    box-shadow: 0px 1px 3px #2a2a2a;
+    box-shadow: 2px 4px 6px #5CDB95;
 }
 
-/*.navbar-custom {
-    background-color: #3b5998;
-}*/
+.navbar-dark {
+    background-color: #000;
+}
 
 .navbar-toggler-icon {
     color: #fff;
 }
 
-.navbar-light a.navbar-brand {
+.navbar-dark a.navbar-brand {
     font-family: "Sriracha", cursive;
     font-weight: 100;
     font-size: 250%;
@@ -42,13 +52,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 370px;
-    box-shadow: 0px 3px 8px #2a2a2a;
+    height: 550px;
+    box-shadow: 2px 4px 6px #5CDB95;
 }
 
 .frosty {
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    margin-top: 75px;
+    padding: 20px;
 }
 
 h1,
@@ -78,12 +90,12 @@ h6,
 
 .booyah-box,
 .course-box {
-    -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-    -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-    box-shadow: 1px 1px 2px 0 #d0d0d0;
-    background: #fff;
+    /*-webkit-box-shadow: 1px 1px 3px 0 #8EE4AF;
+-moz-box-shadow: 1px 1px 3px 0 #8EE4AF;
+box-shadow: 1px 1px 3px 0 #8EE4AF;*/
+    background-color: rgba(36, 32, 33, 0.9);
     border: 1px solid #ccc;
-    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    /*border-color: #379683 #8EE4AF #8EE4AF #379683;*/
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 20px;
@@ -92,11 +104,12 @@ h6,
 .course-box {
     height: 400px;
     margin-right: 25px;
+    color: #fff;
 }
 
 .course-font {
     font-family: "Sriracha", cursive;
-    color: #007bff;
+    color: #fff;
 }
 
 .help-block {
